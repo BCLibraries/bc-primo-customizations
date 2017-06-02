@@ -1,12 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-}
-
-.sidebar-title {
-  display: none;
-}
 /* primary color hook */
 /* commenttttt*/
 .md-button {
@@ -520,6 +511,3 @@ md-toolbar.default-toolbar:not(.md-menu-toolbar) {
   color: #44707b; }
 
 /* primary color hook end*/
-.result-item-actions .pin-button, .result-item-actions .md-icon-button, .result-item-actions .md-icon-button-custom {
-  color: #000000;
-}
