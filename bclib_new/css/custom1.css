@@ -511,3 +511,39 @@ md-toolbar.default-toolbar:not(.md-menu-toolbar) {
   color: #44707b; }
 
 /* primary color hook end*/
+
+/* Logo */
+prm-logo div.product-logo {
+  display: none;
+}
+prm-logo div.product-logo-local {
+display: flex;
+}
+prm-logo .logo-image, prm-logo img {
+    max-height: 100%;
+}
+
+/* Application background */
+body, prm-brief-result-container .list-item-primary-content, .full-view-inner-container, md-content, md-content.md-primoExplore-theme {
+  background-color: #FFFFFF;
+}
+
+prm-brief-result-container .list-item-primary-content:before {
+  background-color: #F3F3F3;
+}
+
+/* Advanced Search */
+prm-search-bar .advanced-search-backdrop {
+  background-color: #dfddcf;
+}
+
+/* Action Icons */
+.result-item-actions .md-icon-button {
+  color: #555;
+}
+
+prm-facet .sidebar-title {
+  display: none;
+}
+
+/* Change advanced search background */
