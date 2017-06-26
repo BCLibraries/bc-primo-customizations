@@ -546,4 +546,11 @@ prm-facet .sidebar-title {
   display: none;
 }
 
-/* Change advanced search background */
+/* Hide Tags in Detailed Display */
+[aria-label="Tags"]{display:none;}
+#tags{display:none;}
+
+/* Fix overlay background */
+md-content.overlay-menu-content {
+    background-color: #8a100b;
+}
