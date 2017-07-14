@@ -554,3 +554,11 @@ prm-facet .sidebar-title {
 md-content.overlay-menu-content {
     background-color: #8a100b;
 }
+
+/* Fix item expanded background */
+.item-expanded .action-list-content:before, .item-hovered .action-list-content:before {
+}
+
+.item-expanded prm-brief-result-container .list-item-primary-content {
+    background-color: inherit;
+}
