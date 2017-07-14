@@ -562,3 +562,8 @@ md-content.overlay-menu-content {
 .item-expanded prm-brief-result-container .list-item-primary-content {
     background-color: inherit;
 }
+
+/* Fix topbar links contrast */
+prm-topbar .md-button, .md-button.button-over-dark, prm-user-area md-fab-toolbar .md-fab-action-item .md-button {
+    color: #F3F3F3;
+}
