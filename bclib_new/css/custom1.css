@@ -568,3 +568,16 @@ md-content.overlay-menu-content {
 prm-topbar .md-button, .md-button.button-over-dark, prm-user-area md-fab-toolbar .md-fab-action-item .md-button {
     color: #F3F3F3;
 }
+
+/* Staging only styles */
+prm-logo-after h1 {
+    text-transform: uppercase;
+    margin-left: 1em;
+}
+
+prm-search-bar {
+    background-color: #dfddcf;
+}
+prm-browse-search-bar .search-switch-buttons .md-button.switch-to-advanced, prm-journals-search-bar .search-switch-buttons .md-button.switch-to-advanced, prm-search-bar .search-switch-buttons .md-button.switch-to-advanced, prm-tags-search-bar .search-switch-buttons .md-button.switch-to-advanced {
+    color: #501315;
+}
