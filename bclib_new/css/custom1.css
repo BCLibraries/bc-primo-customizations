@@ -557,6 +557,7 @@ md-content.overlay-menu-content {
 
 /* Fix item expanded background */
 .item-expanded .action-list-content:before, .item-hovered .action-list-content:before {
+    background-color: #F3F3F3
 }
 
 .item-expanded prm-brief-result-container .list-item-primary-content {
