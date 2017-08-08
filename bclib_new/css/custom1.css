@@ -581,3 +581,13 @@ prm-search-bar {
 prm-browse-search-bar .search-switch-buttons .md-button.switch-to-advanced, prm-journals-search-bar .search-switch-buttons .md-button.switch-to-advanced, prm-search-bar .search-switch-buttons .md-button.switch-to-advanced, prm-tags-search-bar .search-switch-buttons .md-button.switch-to-advanced {
     color: #501315;
 }
+
+/* Hide account edit icon */
+prm-personal-info .md-toolbar-tools {
+    display: none;
+}
+
+/* Hide notification checkboxes */
+prm-personal-info .card-content-section:nth-child(5) {
+    display: none;
+}
