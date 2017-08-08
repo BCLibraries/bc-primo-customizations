@@ -568,3 +568,13 @@ md-content.overlay-menu-content {
 prm-topbar .md-button, .md-button.button-over-dark, prm-user-area md-fab-toolbar .md-fab-action-item .md-button {
     color: #F3F3F3;
 }
+
+/* Hide account edit icon */
+prm-personal-info .md-toolbar-tools {
+    display: none;
+}
+
+/* Hide notification checkboxes */
+prm-personal-info .card-content-section:nth-child(5) {
+    display: none;
+}
