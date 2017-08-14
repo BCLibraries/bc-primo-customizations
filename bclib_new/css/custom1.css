@@ -583,3 +583,19 @@ prm-personal-info .card-content-section:nth-child(5) {
 prm-alphabet-toolbar {
     display: none;
 }
+
+/* Accessibility: Contrast Fixes */
+prm-user-area .user-menu-button .user-name {
+    background-color: #741310;
+}
+
+.bar prm-authentication .md-button {
+    color: #204375;
+}
+.prm-text.prm-hue1, body.prm-hue1, .weak-text, .numbered-list .item::before, prm-brief-result-container .media-content-type, prm-snippet prm-icon, a.prm-hue1.a-tag-as-wrapper, .md-button.arrow-link-button .prm-hue1.a-tag-as-wrapper.button-content, .recommendations-title:hover > span > span.prm-hue1.a-tag-as-wrapper, .recommendations-title.hover > span > span.prm-hue1.a-tag-as-wrapper, .hack-a-tag-unclickable a.prm-hue1, .hack-a-tag-unclickable .md-button.arrow-link-button .prm-hue1.button-content, .md-button.arrow-link-button .hack-a-tag-unclickable .prm-hue1.button-content, prm-search-bar.prm-hue1, prm-journals-search-bar.prm-hue1, prm-virtual-browse-item md-card md-card-title.prm-hue1, prm-virtual-browse-item md-card md-card-content.prm-hue1, md-input-container.static-select.md-input-has-value label.prm-hue1, .presentable-disabled-inputs md-input-container label.prm-hue1, md-toolbar.prm-hue1.transparent-toolbar, md-toolbar.prm-hue1.default-toolbar {
+    color: #555555;
+}
+
+.duedate > span, .fulltext > span, .fulltext_linktorsrc > span, .getit > span, .login-dialog .collapsable-container md-list md-list-item .md-list-item-inner, .login-dialog .md-list[class$="-line"] md-list-item .md-list-item-text .list-item-title, .login-dialog .md-list[class$="-line"] md-list-item .md-list-item-text h3, .login-dialog .md-list[class$="-line"] md-list-item > .md-no-style .md-list-item-text .list-item-title, .login-dialog .md-list[class$="-line"] md-list-item > .md-no-style .md-list-item-text h3, .login-dialog .md-list md-list-item .md-list-item-text .list-item-title, .login-dialog .md-list md-list-item .md-list-item-text h3, .login-dialog .md-list md-list-item > .md-no-style .md-list-item-text .list-item-title, .login-dialog .md-list md-list-item > .md-no-style .md-list-item-text h3, .login-dialog md-list md-list-item .md-list-item-text .list-item-title, .login-dialog md-list md-list-item .md-list-item-text h3, .login-dialog md-list md-list-item > .md-no-style .md-list-item-text .list-item-title, .login-dialog md-list md-list-item > .md-no-style .md-list-item-text h3, .md-button.arrow-link-button .button-content, .md-button.arrow-link-button [link-arrow], .not_restricted > span, .prm-links, .restricted > span, .separate-list-items md-list-item .item-loader-with-text .md-button, .tiles-grid-tile .tile-header .header-link .arrow-icon, .tiles-grid-tile .tile-header .header-link:focus, .tiles-grid-tile .tile-header .header-link:hover, .tiles-grid-tile .tile-header .md-button, [class*="_more"] > span, [class*="_unknown"] > span, [class*="available"] > span, [class*="check_"] > span, [class*="does_not_exist"] > span, [class*="FT"] > span, [class*="may_"] > span, [class*="NFT"] > span, [class*="no_"] > span, [class*="unavailable"] > span, a, md-grid-tile .tile-header .header-link .arrow-icon, md-grid-tile .tile-header .header-link:focus, md-grid-tile .tile-header .header-link:hover, md-grid-tile .tile-header .md-button, md-input-container.has-fixed-message [ng-message] a, md-list-item.list-item-as-link, md-tabs.tabs-as-app .back-button, md-tabs.tabs-as-links md-tab-item, md-tabs.tabs-as-links md-tab-item:not([disabled]), prm-tags-list .md-chips .md-chip .md-chip-content strong, prm-tags-list .md-chips md-chip .md-chip-content strong, prm-tags-list md-chips .md-chip .md-chip-content strong, prm-tags-list md-chips md-chip .md-chip-content strong {
+    color: #741310;
+}
