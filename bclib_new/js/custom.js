@@ -7,30 +7,30 @@
 
     /****************************************************************************************************/
 
-        /*In case of CENTRAL_PACKAGE - comment out the below line to replace the other module definition*/
+    /*In case of CENTRAL_PACKAGE - comment out the below line to replace the other module definition*/
 
-        /*var app = angular.module('centralCustom', ['angularLoad']);*/
+    /*var app = angular.module('centralCustom', ['angularLoad']);*/
 
     /****************************************************************************************************/
 
-  // Add Clickable Logo
-  app.controller('prmLogoAfterController', [function () {
-    var vm = this;
-    vm.getIconLink = getIconLink;
-    function getIconLink() {
-      return vm.parentCtrl.iconLink;
-    }
-  }]);
+    // Add Clickable Logo
+    app.controller('prmLogoAfterController', [function () {
+	var vm = this;
+	vm.getIconLink = getIconLink;
+	function getIconLink() {
+	    return vm.parentCtrl.iconLink;
+	}
+    }]);
 
-  app.component('prmLogoAfter',{
-    bindings: {parentCtrl: '<'},
-    controller: 'prmLogoAfterController',
-    templateUrl: 'custom/bclib_new/html/logo.html'
-  });
+    app.component('prmLogoAfter',{
+	bindings: {parentCtrl: '<'},
+	controller: 'prmLogoAfterController',
+	templateUrl: 'custom/bclib_new/html/logo.html'
+    });
 
     // Add Proxy Borrower Link
     app.component('prmMessagesAndBlocksOverviewAfter', {
-        templateUrl: `custom/bclib_new/html/proxy_borrower.html`
+	templateUrl: `custom/bclib_new/html/proxy_borrower.html`
 
     });
 
