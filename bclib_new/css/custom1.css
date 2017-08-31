@@ -631,3 +631,13 @@ prm-user-area .user-menu-button .user-name, prm-topbar .md-button, .md-button.bu
     width: 100%;
     height: 100%;
 }
+
+/* Search Links */
+
+.search-link {
+    font-size: 18px;
+}
+
+prm-search-bar {
+    padding: 3rem;
+}

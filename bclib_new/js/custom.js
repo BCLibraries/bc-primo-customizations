@@ -35,5 +35,22 @@
 
     });
 
+
+    // Add Search Links
+
+    app.controller('prmSearchBarAfterController', [function() {
+	var vm = this;
+	vm.getQueryString = getQueryString;
+	function getQueryString() {
+	    return vm.parentCtrl.typedQuery;
+	}
+    }]);
+
+    app.component('prmSearchBarAfter', {
+	bindings: {parentCtrl: '<'},
+	controller: 'prmSearchBarAfterController',
+	templateUrl: `custom/bclib_new/html/search_links.html`
+    });
+
 })();
 
