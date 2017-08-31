@@ -25,13 +25,12 @@
   app.component('prmLogoAfter',{
     bindings: {parentCtrl: '<'},
     controller: 'prmLogoAfterController',
-    template: '<div class="product-logo product-logo-local" layout="row" id="banner" tabindex="0"  role="banner">' +
-'<a href="https://library.bc.edu"><img class="logo-image" alt="{{::(&apos;nui.header.LogoAlt&apos; | translate)}}" ng-src="{{$ctrl.getIconLink()}}" width="130" /></a></div><h1>Staging</h1>'
+    templateUrl: 'custom/bclib_new/html/logo.html'
   });
 
     // Add Proxy Borrower Link
     app.component('prmMessagesAndBlocksOverviewAfter', {
-        templateURL: `custom/bclib_new/html/proxy_borrower.html`
+        templateUrl: `custom/bclib_new/html/proxy_borrower.html`
 
     });
 
