@@ -569,19 +569,6 @@ prm-topbar .md-button, .md-button.button-over-dark, prm-user-area md-fab-toolbar
     color: #F3F3F3;
 }
 
-/* Staging only styles */
-prm-logo-after h1 {
-    text-transform: uppercase;
-    margin-left: 1em;
-}
-
-prm-search-bar {
-    background-color: #dfddcf;
-}
-prm-browse-search-bar .search-switch-buttons .md-button.switch-to-advanced, prm-journals-search-bar .search-switch-buttons .md-button.switch-to-advanced, prm-search-bar .search-switch-buttons .md-button.switch-to-advanced, prm-tags-search-bar .search-switch-buttons .md-button.switch-to-advanced {
-    color: #501315;
-}
-
 /* Hide account edit icon */
 prm-personal-info .md-toolbar-tools {
     display: none;
@@ -640,4 +627,19 @@ prm-user-area .user-menu-button .user-name, prm-topbar .md-button, .md-button.bu
 
 prm-search-bar {
     padding: 3rem;
+}
+
+
+
+/* Staging only styles */
+prm-logo-after h1 {
+    text-transform: uppercase;
+    margin-left: 1em;
+}
+
+prm-search-bar {
+    background-color: #dfddcf;
+}
+prm-browse-search-bar .search-switch-buttons .md-button.switch-to-advanced, prm-journals-search-bar .search-switch-buttons .md-button.switch-to-advanced, prm-search-bar .search-switch-buttons .md-button.switch-to-advanced, prm-tags-search-bar .search-switch-buttons .md-button.switch-to-advanced {
+    color: #501315;
 }
