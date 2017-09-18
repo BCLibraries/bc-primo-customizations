@@ -39,9 +39,11 @@
 
     app.controller('prmSearchBarAfterController', [function() {
 	var vm = this;
-	vm.getQueryString = getQueryString;
-	function getQueryString() {
-	    return vm.parentCtrl.typedQuery;
+	vm.searchOperator = vm.parentCtrl.searchOperator;
+	vm.scopeField= vm.parentCtrl.scopeField;
+	vm.getQuery = getQuery;
+	function getQuery() {
+	    return vm.parentCtrl.mainSearchField;
 	}
     }]);
 
