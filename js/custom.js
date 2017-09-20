@@ -40,10 +40,17 @@
     app.controller('prmSearchBarAfterController', [function() {
 	var vm = this;
 	vm.searchOperator = vm.parentCtrl.searchOperator;
-	vm.scopeField= vm.parentCtrl.scopeField;
+	vm.scopeField = vm.parentCtrl.scopeField;
+	vm.advancedSearch = vm.parentCtrl.advancedSearch;
 	vm.getQuery = getQuery;
+	vm.selectedTab = getSelectedTab;
+
 	function getQuery() {
 	    return vm.parentCtrl.mainSearchField;
+	}
+
+	function getSelectedTab() {
+	    return vm.parentCtrl.selectedTab;
 	}
     }]);
 
@@ -53,5 +60,10 @@
 	templateUrl: `custom/bclib_new/html/search_links.html`
     });
 
+    app.component('prmJournalsSearchBarAfter', {
+	bindings: {parentCtrl: '<'},
+	controller: 'prmSearchBarAfterController',
+	templateUrl: `custom/bclib_new/html/search_links.html`
+    });
 })();
 
