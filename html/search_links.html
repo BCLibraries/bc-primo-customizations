@@ -1,14 +1,28 @@
-<div class="search-links-wrapper layout-row" layout="row">
+<div ng-if="$ctrl.getQuery()" ng-class="{'hidden': $ctrl.advancedSearch}" class="search-links-wrapper layout-row" layout="row">
   <div flex="0" flex-md="0" flex-lg="10" flex-xl="20" ng-class="{'facet-to-left-spacer': $ctrl.facetToLeft &amp;&amp; !$ctrl.mediaQueries.xl &amp;&amp; !$ctrl.mediaQueries.md &amp;&amp; !$ctrl.mediaQueries.sm &amp;&amp; !$ctrl.mediaQueries.xs, 'flex-xl-25': $ctrl.facetToLeft &amp;&amp; $ctrl.selectedTab }" class="flex-xl-20 flex-md-0 flex-lg-10 flex-0"></div>
   <div id="search-links" class="layout-row layout-align-space-around flex-xl-30 flex-sm-65 flex-md-55 flex-lg-45 flex" flex="" flex-sm="65" flex-md="55" flex-lg="45" flex-xl="30" layout="row" layout-align="space-around">
     <div class="layout-column" layout="column">
-      <a href="search?query={{$ctrl.searchOperator}}{{$ctrl.getQuery()}}&tab=bcl_only&search_scope=bcl&vid=bclib_new&offset=0" class="search-link book-search-link md-button" ng-class="{ 'selected': $ctrl.scopeField == 'bcl' }">Books</a>
+      <a target="_self" ng-href="search?query=any,contains,{{$ctrl.getQuery()}}&tab=bcl_only&vid=bclib_new&sortby=rank&offset=0" class="search-link book-search-link md-button" ng-class="{ 'selected': $ctrl.selectedTab() == 'bcl_only' }">Books &amp; Media</a>
     </div>
     <div class="layout-column" layout="column">
-      <a href="search?query={{$ctrl.searchOperator}}{{$ctrl.getQuery()}}&tab=pci_only&search_scope=pci&vid=bclib_new&offset=0" class="search-link article-search-link md-button" ng-class="{ 'selected': $ctrl.scopeField == 'pci' }">Articles</a>
+      <a target="_self" ng-href="search?query=any,contains,{{$ctrl.getQuery()}}&tab=pci_only&vid=bclib_new&sortby=rank&offset=0" class="search-link article-search-link md-button" ng-class="{ 'selected': $ctrl.selectedTab() == 'pci_only' }">Articles</a>
     </div>
     <div class="layout-column" layout="column">
-      <a href="jsearch?query={{$ctrl.searchOperator}}{{$ctrl.getQuery()}}&tab=jsearch_slot&vid=bclib_new&amp;lang=en_US&amp;sortby=rank&journals=any,{{$ctrl.getQuery()}}" class="search-link journals-search-link md-button">Journals</a>
+      <a ng-href="jsearch?query=any,contains,{{$ctrl.getQuery()}}&tab=jsearch_slot&vid=bclib_new&amp;lang=en_US&amp;sortby=rank&journals=any,{{$ctrl.getQuery()}}" class="search-link journals-search-link md-button" ng-class="{ 'selected': $ctrl.selectedTab() == 'jsearch_slot' }">Journals</a>
+    </div>
+  </div>
+</div>
+<div ng-if="!$ctrl.getQuery()" ng-class="{'hidden': $ctrl.advancedSearch}" class="search-links-wrapper layout-row" layout="row">
+  <div flex="0" flex-md="0" flex-lg="10" flex-xl="20" ng-class="{'facet-to-left-spacer': $ctrl.facetToLeft &amp;&amp; !$ctrl.mediaQueries.xl &amp;&amp; !$ctrl.mediaQueries.md &amp;&amp; !$ctrl.mediaQueries.sm &amp;&amp; !$ctrl.mediaQueries.xs, 'flex-xl-25': $ctrl.facetToLeft &amp;&amp; $ctrl.selectedTab }" class="flex-xl-20 flex-md-0 flex-lg-10 flex-0"></div>
+  <div id="search-links" class="layout-row layout-align-space-around flex-xl-30 flex-sm-65 flex-md-55 flex-lg-45 flex" flex="" flex-sm="65" flex-md="55" flex-lg="45" flex-xl="30" layout="row" layout-align="space-around">
+    <div class="layout-column" layout="column">
+      <a target="_self" ng-href="search?tab=bcl_only&vid=bclib_new&sortby=rank&offset=0" class="search-link book-search-link md-button" ng-class="{ 'selected': $ctrl.selectedTab() == 'bcl_only' }">Books &amp; Media</a>
+    </div>
+    <div class="layout-column" layout="column">
+      <a target="_self" ng-href="search?tab=pci_only&vid=bclib_new&sortby=rank&offset=0" class="search-link article-search-link md-button" ng-class="{ 'selected': $ctrl.selectedTab() == 'pci_only' }">Articles</a>
+    </div>
+    <div class="layout-column" layout="column">
+      <a ng-href="jsearch?query=any,contains,{{$ctrl.getQuery()}}&tab=jsearch_slot&vid=bclib_new&amp;lang=en_US&amp;sortby=rank&journals=any,{{$ctrl.getQuery()}}" class="search-link journals-search-link md-button" ng-class="{ 'selected': $ctrl.selectedTab() == 'jsearch_slot' }">Journals</a>
     </div>
   </div>
 </div>
