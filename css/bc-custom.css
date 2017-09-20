@@ -108,10 +108,18 @@ prm-user-area .user-menu-button .user-name, prm-topbar .md-button, .md-button.bu
 
 /* Search Links */
 
-.search-link {
-    font-size: 18px;
+prm-search-bar div.layout-fill {
+    height: initial;
+    min-height: 0;
+}
+.search-link.selected {
+    background-color: rgba(58, 58, 58, 0.1);
 }
 
-prm-search-bar {
-    padding: 3rem;
+.search-link:hover {
+    box-shadow: 1px 1px 1px 0 rgb(58,58,58, 0.2);
+}
+
+.search-link:focus {
+    box-shadow: none;
 }
