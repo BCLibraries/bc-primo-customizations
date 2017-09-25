@@ -1,2 +1,5 @@
 *.swp
 css/custom1.css
+js/custom.js
+js/customTemplates.js
+node_modules/

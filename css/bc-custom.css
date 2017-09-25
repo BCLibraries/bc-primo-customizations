@@ -1,15 +1,3 @@
-
-/* Logo */
-prm-logo div.product-logo {
-  display: none;
-}
-prm-logo div.product-logo-local {
-display: flex;
-}
-prm-logo .logo-image, prm-logo img {
-    max-height: 100%;
-}
-
 /* Application background */
 body, prm-brief-result-container .list-item-primary-content, .full-view-inner-container, md-content, md-content.md-primoExplore-theme {
   background-color: #FFFFFF;
@@ -104,22 +92,4 @@ prm-user-area .user-menu-button .user-name, prm-topbar .md-button, .md-button.bu
     left: 0;
     width: 100%;
     height: 100%;
-}
-
-/* Search Links */
-
-prm-search-bar div.layout-fill {
-    height: initial;
-    min-height: 0;
-}
-.search-link.selected {
-    background-color: rgba(58, 58, 58, 0.1);
-}
-
-.search-link:hover {
-    box-shadow: 1px 1px 1px 0 rgb(58,58,58, 0.2);
-}
-
-.search-link:focus {
-    box-shadow: none;
 }
