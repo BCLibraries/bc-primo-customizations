@@ -1,24 +1,23 @@
 {
-  "name": "primo-explore-bclib-new",
-  "version": "0.0.1",
-  "description": "BC Libraries' custom view for Primo",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BCLibraries/bc-primo-customizations.git"
-  },
-  "keywords": [
-    "primo"
-  ],
-  "author": "Luke Gaudreau",
-  "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://github.com/BCLibraries/bc-primo-customizations/issues"
-  },
-  "homepage": "https://github.com/BCLibraries/bc-primo-customizations#readme",
-  "dependencies": {
-    "primo-explore-bc-logo": "file:../../../../primo-explore-bc-logo",
-    "primo-explore-bc-searchbar": "file:../../../../primo-explore-bc-searchbar",
-    "primo-explore-bc-staging": "file:../../../../primo-explore-bc-staging",
-    "primo-explore-proxy-borrower": "file:../../../../primo-explore-proxy-borrower"
-  }
+    "name": "primo-explore-bclib-new",
+    "version": "0.0.1",
+    "description": "BC Libraries' custom view for Primo",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BCLibraries/bc-primo-customizations.git"
+    },
+    "keywords": [
+        "primo"
+    ],
+    "author": "Luke Gaudreau",
+    "license": "GPL-3.0",
+    "bugs": {
+        "url": "https://github.com/BCLibraries/bc-primo-customizations/issues"
+    },
+    "homepage": "https://github.com/BCLibraries/bc-primo-customizations#readme",
+    "dependencies": {
+        "primo-explore-bc-header": "file:../../../../primo-explore-bc-header",
+        "primo-explore-bc-staging": "file:../../../../primo-explore-bc-staging",
+        "primo-explore-proxy-borrower": "file:../../../../primo-explore-proxy-borrower"
+    }
 }
