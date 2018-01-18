@@ -225,6 +225,40 @@ prm-collection-gallery-header .collection-header-inner {
 }
 
 prm-collection-navigation-breadcrumbs-item .md-button.button-as-link.link-alt-color,
-prm-collection-gallery-header .collection-header-inner.has-backdrop-image {
+prm-collection-gallery-header .collection-header-inner.has-backdrop-image .collection-title,
+prm-collection-gallery-header .collection-header-inner.has-backdrop-image p {
     color: #FAFAFA;
+}
+
+prm-collection-gallery-header .collection-header-inner .collection-title {
+    color: #000000;
+}
+
+prm-collection-gallery-header .collection-header-inner p {
+    color: #685c53;
+}
+
+prm-gallery-collection .collection-folder .item-meta {
+    display: none;
+}
+
+prm-gallery-collection .collection-folder .item-title {
+    top: 10%;
+}
+
+prm-gallery-collection .collection-folder.is-active .item-title {
+    top: 0;
+}
+
+prm-gallery-items-list h2.margin-zero,
+prm-gallery-collections-list h2.margin-zero {
+    display: none;
+}
+
+prm-gallery-items-list span.text-italic.margin-left-medium,
+prm-gallery-collections-list span.text-italic.margin-left-medium {
+    margin: 0;
+    font-weight: 300;
+    font-size: 1.5em;
+    font-style: inherit;
 }
