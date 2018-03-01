@@ -262,3 +262,9 @@ prm-gallery-collections-list span.text-italic.margin-left-medium {
     font-size: 1.5em;
     font-style: inherit;
 }
+
+/* Fix bug with section highlight on mobile */
+
+primo-explore.__xs .full-view-section-content::after {
+            left: -1em;
+}
