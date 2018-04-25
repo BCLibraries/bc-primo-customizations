@@ -16,8 +16,8 @@
     },
     "homepage": "https://github.com/BCLibraries/bc-primo-customizations#readme",
     "dependencies": {
-        "primo-explore-bc-header": "file:../../../../primo-explore-bc-header",
-        "primo-explore-bc-staging": "file:../../../../primo-explore-bc-staging",
-        "primo-explore-proxy-borrower": "file:../../../../primo-explore-proxy-borrower"
+        "primo-explore-bc-header": "BCLibraries/primo-explore-bc-header",
+        "primo-explore-bc-staging": "BCLibraries/primo-explore-bc-staging",
+        "primo-explore-proxy-borrower": "BCLibraries/primo-explore-proxy-borrower"
     }
 }
