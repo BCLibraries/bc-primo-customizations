@@ -267,6 +267,11 @@ prm-collection-gallery-header .collection-header-inner.has-transparent-topbar {
     max-width: 1600px;
     margin: 0 auto;
 }
+/* Fix bug with image stretch in chrome */
+.is-grid-view prm-gallery-item .collection-element img {
+    max-width: 100%;
+    width: inherit;
+}
 /* Fix bug with section highlight on mobile */
 
 primo-explore.__xs .full-view-section-content::after {

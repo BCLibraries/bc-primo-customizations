@@ -17,6 +17,11 @@
       "from": "bclibraries/primo-explore-bc-staging",
       "resolved": "git://github.com/bclibraries/primo-explore-bc-staging.git#1965c21366f6724a3183ef2af13376f866fa248f"
     },
+    "primo-explore-noresults": {
+      "version": "0.0.1",
+      "from": "bclibraries/primo-explore-noresults",
+      "resolved": "git://github.com/bclibraries/primo-explore-noresults.git#52a8cb7e88d116bbe2df80caa1501c2f1e182eee"
+    },
     "primo-explore-proxy-borrower": {
       "version": "0.0.1",
       "from": "bclibraries/primo-explore-proxy-borrower",
