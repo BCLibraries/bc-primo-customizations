@@ -267,6 +267,28 @@ prm-collection-gallery-header .collection-header-inner.has-transparent-topbar {
     max-width: 1600px;
     margin: 0 auto;
 }
+.__gt-md prm-gallery-collection {
+    -ms-flex: 0 1 calc(33% - 2em);
+    flex: 0 1 calc(33% - 2em);
+    margin: 1em;
+}
+prm-gallery-collection .collection-folder.is-active .collection-overlay::before {
+    background-color: rgba(243,243,243,0.90);
+}
+prm-gallery-collection .collection-folder {
+    padding: 4px;
+}
+prm-gallery-collection .collection-folder .collection-overlay {
+    padding: 0;
+}
+prm-gallery-collection .collection-folder .collection-overlay h3 span {
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+}
+prm-gallery-collection .collection-folder.is-active .collection-overlay h3 span {
+    box-shadow: inherit;
+    background-color: inherit;
+}
 /* Fix bug with image stretch in chrome */
 .is-grid-view prm-gallery-item .collection-element img {
     max-width: 100%;
