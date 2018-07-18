@@ -23,6 +23,10 @@
     "primo-explore-proxy-borrower": {
       "version": "github:BCLibraries/primo-explore-proxy-borrower#c2a9b978f9d969f1363fe418307e4fcffe1749c6",
       "from": "github:BCLibraries/primo-explore-proxy-borrower"
+    },
+    "primo-explore-search-collections": {
+      "version": "github:BCLibraries/primo-explore-search-collections#d831540e70ac238b58ecb22e6e02763f4dee1048",
+      "from": "github:BCLibraries/primo-explore-search-collections"
     }
   }
 }
