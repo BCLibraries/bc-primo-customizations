@@ -16,6 +16,10 @@
       "version": "github:BCLibraries/primo-explore-bc-staging#1965c21366f6724a3183ef2af13376f866fa248f",
       "from": "github:BCLibraries/primo-explore-bc-staging"
     },
+    "primo-explore-gallery-item": {
+      "version": "github:BCLibraries/primo-explore-gallery-item#beb89575cd5053246ef977889dd0290aae7f931e",
+      "from": "github:BCLibraries/primo-explore-gallery-item"
+    },
     "primo-explore-noresults": {
       "version": "github:BCLibraries/primo-explore-noresults#52a8cb7e88d116bbe2df80caa1501c2f1e182eee",
       "from": "github:BCLibraries/primo-explore-noresults"
