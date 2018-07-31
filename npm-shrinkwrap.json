@@ -12,10 +12,6 @@
             "version": "git+ssh://git@git.bc.edu:7999/bcl/primo-explore-bc-permalink.git#f10ce2d694274bbc9eab5264e733eb7833f160c2",
             "from": "git+ssh://git@git.bc.edu:7999/bcl/primo-explore-bc-permalink.git"
         },
-        "primo-explore-bc-staging": {
-            "version": "github:BCLibraries/primo-explore-bc-staging#1965c21366f6724a3183ef2af13376f866fa248f",
-            "from": "github:BCLibraries/primo-explore-bc-staging"
-        },
         "primo-explore-gallery-item": {
             "version": "github:BCLibraries/primo-explore-gallery-item#beb89575cd5053246ef977889dd0290aae7f931e",
             "from": "github:BCLibraries/primo-explore-gallery-item"
