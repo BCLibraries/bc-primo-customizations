@@ -4,4 +4,5 @@ var app = angular.module('viewCustom', [
     'bc-noresults',
     'bc-proxy',
     'bc-permalink',
+    'bc-search-collections',
 ]);
