@@ -5,4 +5,5 @@ var app = angular.module('viewCustom', [
     'bc-proxy',
     'bc-permalink',
     'bc-search-collections',
+    'bc-gallery-item',
 ]);
