@@ -298,3 +298,17 @@ prm-gallery-collection .collection-folder.is-active .collection-overlay h3 span 
 primo-explore.__xs .full-view-section-content::after {
             left: -1em;
 }
+
+/* Hide the new user-area menu */
+
+prm-user-area {
+
+    display:block!important;
+
+}
+
+prm-user-area-expandable {
+
+    display:none!important;
+
+}
