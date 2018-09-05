@@ -303,7 +303,7 @@ primo-explore.__xs .full-view-section-content::after {
 
 prm-user-area {
 
-    display:block!important;
+    display:flex!important;
 
 }
 
