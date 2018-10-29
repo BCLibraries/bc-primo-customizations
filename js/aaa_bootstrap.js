@@ -6,4 +6,5 @@ var app = angular.module('viewCustom', [
     'bc-permalink',
     'bc-search-collections',
     'bc-gallery-item',
+    'bc-toc-link',
 ]);
