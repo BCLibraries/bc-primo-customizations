@@ -13,7 +13,7 @@
             "from": "git+ssh://git@git.bc.edu:7999/bcl/primo-explore-bc-permalink.git"
         },
         "primo-explore-bottom-toolbar": {
-            "version": "github:BCLibraries/primo-explore-bottom-toolbar#3903c5f651ed3e1102cc0eb015377b2313b809db",
+            "version": "github:BCLibraries/primo-explore-bottom-toolbar#8af5061415e9bb071f0e7f15b64d34e3fbff5f5c",
             "from": "github:BCLibraries/primo-explore-bottom-toolbar"
         },
         "primo-explore-gallery-item": {
