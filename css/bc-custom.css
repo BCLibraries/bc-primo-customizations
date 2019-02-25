@@ -312,3 +312,9 @@ prm-user-area-expandable {
     display:none!important;
 
 }
+
+/* Hide the services sidebar */
+
+#services-index {
+	display:none;
+}
