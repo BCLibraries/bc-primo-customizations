@@ -16,11 +16,12 @@
     },
     "homepage": "https://github.com/BCLibraries/bc-primo-customizations#readme",
     "dependencies": {
-        "primo-explore-bc-browzine": "github:BCLibraries/primo-explore-bc-browzine",
+        "primo-explore-bc-availability": "github:BCLibraries/primo-explore-bc-availability",
         "primo-explore-bc-header": "github:BCLibraries/primo-explore-bc-header",
         "primo-explore-bc-permalink": "git+ssh://git@git.bc.edu:7999/bcl/primo-explore-bc-permalink.git",
         "primo-explore-bottom-toolbar": "github:BCLibraries/primo-explore-bottom-toolbar",
         "primo-explore-gallery-item": "github:BCLibraries/primo-explore-gallery-item",
+        "primo-explore-hathitrust-availability": "github:UMNLibraries/primo-explore-hathitrust-availability",
         "primo-explore-noresults": "github:BCLibraries/primo-explore-noresults",
         "primo-explore-proxy-borrower": "github:BCLibraries/primo-explore-proxy-borrower",
         "primo-explore-search-collections": "github:BCLibraries/primo-explore-search-collections"
