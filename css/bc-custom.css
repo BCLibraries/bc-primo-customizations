@@ -299,20 +299,26 @@ primo-explore.__xs .full-view-section-content::after {
             left: -1em;
 }
 
-/* Hide the new user-area menu */
+/* Hide the new user-area menu signin button and refworks links*/
 
-prm-user-area {
-
-    display:flex!important;
-
-}
-
-prm-user-area-expandable {
+prm-user-area-expandable #signInBtn{
 
     display:none!important;
 
+}.my-refworks-ctm{
+
+display: none;
+
 }
 
+.my-refworks-separator-ctm{
+
+display: none;
+
+}
+.prm-user-menu-content .md-button.button-with-icon > prm-icon md-icon {
+    top: 5px;
+}
 /* Hide the services sidebar */
 
 #services-index {
