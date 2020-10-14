@@ -13,11 +13,11 @@
             "from": "github:BCLibraries/primo-explore-bc-header"
         },
         "primo-explore-bc-permalink": {
-            "version": "git+ssh://git@git.bc.edu:7999/bcl/primo-explore-bc-permalink.git#5104b64a4a2ffd7a4c2eeec76e1e0bc2e36f9d56",
-            "from": "git+ssh://git@git.bc.edu:7999/bcl/primo-explore-bc-permalink.git"
+            "version": "github:BCLibraries/primo-explore-bc-permalink#5104b64a4a2ffd7a4c2eeec76e1e0bc2e36f9d56",
+            "from": "github:BCLibraries/primo-explore-bc-permalink"
         },
         "primo-explore-bottom-toolbar": {
-            "version": "github:BCLibraries/primo-explore-bottom-toolbar#9852f9e66a5f1fa707dfcec79b740d449ecadba5",
+            "version": "github:BCLibraries/primo-explore-bottom-toolbar#2513eaf132821a9c2d547ae6cf72b7a7cfff9738",
             "from": "github:BCLibraries/primo-explore-bottom-toolbar"
         },
         "primo-explore-gallery-item": {

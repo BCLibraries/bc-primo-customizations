@@ -18,7 +18,7 @@
     "dependencies": {
         "primo-explore-bc-availability": "github:BCLibraries/primo-explore-bc-availability",
         "primo-explore-bc-header": "github:BCLibraries/primo-explore-bc-header",
-        "primo-explore-bc-permalink": "git+ssh://git@git.bc.edu:7999/bcl/primo-explore-bc-permalink.git",
+        "primo-explore-bc-permalink": "github:BCLibraries/primo-explore-bc-permalink",
         "primo-explore-bottom-toolbar": "github:BCLibraries/primo-explore-bottom-toolbar",
         "primo-explore-gallery-item": "github:BCLibraries/primo-explore-gallery-item",
         "primo-explore-hathitrust-availability": "github:UMNLibraries/primo-explore-hathitrust-availability",
