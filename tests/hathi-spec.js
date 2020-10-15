@@ -1,14 +1,14 @@
-describe('HathiTrust Availability', function() {
-  var searchBar = element(by.id('searchBar'));
-  var EC = protractor.ExpectedConditions;
-
-  it('should show a hathi link', function() {
-    browser.get(browser.baseUrl);
-
-    searchBar.sendKeys("early jesuit missions", protractor.Key.ENTER);
-
-    var result = element.all(by.tagName('prm-brief-result-container')).first().$('hathi-trust-availability');
-    browser.wait(EC.visibilityOf(result), 1000);
-    expect(result.getText()).toEqual("Full Text Available at HathiTrust");
-  });
-});
+module.exports = {
+  tags: ['production'],
+  'Hathitrust link is displayed' : function(browser) {
+    browser
+      .url(browser.launchUrl + 'primo-explore/search?vid=bclib_new')
+      .waitForElementVisible('primo-explore')
+      .setValue('#searchBar', 'early jesuit missions')
+      .assert.visible('.button-confirm')
+      .click('.button-confirm')
+      .verify.containsText('prm-brief-result .item-title', 'Early Jesuit missions')
+      .assert.containsText('prm-brief-result-container hathi-trust-availability .umnHathiTrustLink a', "Full Text Available at HathiTrust")
+      .end();
+  }
+};
