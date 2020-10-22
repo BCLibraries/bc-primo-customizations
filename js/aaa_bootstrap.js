@@ -12,7 +12,7 @@ var app = angular.module('viewCustom', [
 
 window.browzine = {
     api: "https://public-api.thirdiron.com/public/v1/libraries/431",
-    apiKey: "XXXX",
+    apiKey: ${bamboo.API_KEY},
 };
 
 browzine.script = document.createElement("script");
