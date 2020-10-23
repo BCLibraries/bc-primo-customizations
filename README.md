@@ -1,7 +1,13 @@
 
 # BC Primo Customizations
 
-## Set up the primo development environment
+- [Setting up the primo development environment](#set-up-the-primo-development-environment)
+- [Local development](#local-development)
+- [Making changes to a custom package](#making-changes-to-a-custom-package)
+- [Packaging your customizations](#packaging-your-customizations)
+
+
+## Setting up the primo development environment
 
 ### Download the Primo Development Environment 
 
