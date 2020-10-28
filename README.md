@@ -1,8 +1,6 @@
 
 # BC Primo Customizations
 
-**Table of Contents**
-
 - [Setting up the primo development environment](#setting-up-the-primo-development-environment)
 - [Local development](#local-development)
 - [Making changes to a custom package](#making-changes-to-a-custom-package)
