@@ -96,6 +96,15 @@ rm -rf node_modules/primo-explore-bc-availability
 npm link primo-explore-bc-availability
 ~~~
 
+## Running tests
+
+### Run tests
+
+~~~sh
+# ~/Projects/primo-explore-bc-availability
+gulp run-tests --view bclib_new
+~~~
+
 ## Packaging your customizations
 
 ### Switch customized packages to remote version
