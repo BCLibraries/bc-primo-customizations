@@ -5,7 +5,7 @@
     "requires": true,
     "dependencies": {
         "primo-explore-bc-availability": {
-            "version": "github:BCLibraries/primo-explore-bc-availability#01c598f2db455f3ea08e8bed1dbaa9c1ebdf90b8",
+            "version": "github:BCLibraries/primo-explore-bc-availability#109f1fcd8c81c8f3a6bbeb88f764a0cdecd21b44",
             "from": "github:BCLibraries/primo-explore-bc-availability"
         },
         "primo-explore-bc-header": {
