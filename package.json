@@ -25,6 +25,5 @@
         "primo-explore-noresults": "github:BCLibraries/primo-explore-noresults",
         "primo-explore-proxy-borrower": "github:BCLibraries/primo-explore-proxy-borrower",
         "primo-explore-search-collections": "github:BCLibraries/primo-explore-search-collections"
-    },
-    "devDependencies": {}
+    }
 }
