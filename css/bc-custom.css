@@ -324,3 +324,12 @@ display: none;
 #services-index {
 	display:none;
 }
+
+/* Hide relation info note for boundwith titles. display:none not used
+so the <br> tags could be accounted for by negative margin. */
+
+div.clearfix.relationInfo {
+    font-size: 0px;
+    height: 0px;
+    margin-top: -3rem;
+}
