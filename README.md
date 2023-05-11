@@ -42,23 +42,23 @@ var PROXY_SERVER = 'https://bc-primo.hosted.exlibrisgroup.com:443';
 
 ### Download BC Primo Customizations 
 
-Development will be easier if you download into the parent directory and name the local repo bclib_new, after the repo name
+Development will be easier if you download into the parent directory and name the local repo 01BC_INST-bclib_new, after the view name
 ```sh
 # ~/Projects
-git clone git@github.com:BCLibraries/bc-primo-customizations.git bclib_new
+git clone git@github.com:BCLibraries/bc-primo-customizations.git 01BC_INST-bclib_new
 ```
 ### Install BC Primo Customization packages
 
 ```sh
-# ~/Projects/bclib_new
+# ~/Projects/01BC_INST-bclib_new
 npm install
 ```
 
 ### Link BC Primo Customizations to custom view location
 
 ```sh
-# ~/Projects/bclib_new
-ln -s ~/Projects/bclib_new ~/Projects/primo-explore-devenv/primo-explore/custom/
+# ~/Projects/01BC_INST-bclib_new
+ln -s ~/Projects/01BC_INST-bclib_new ~/Projects/primo-explore-devenv/primo-explore/custom/
 ```
 
 ## Local development
@@ -67,11 +67,11 @@ ln -s ~/Projects/bclib_new ~/Projects/primo-explore-devenv/primo-explore/custom/
 
 ```sh
 # ~/Projects/primo-explore-devenv
-gulp run --view bclib_new
+gulp run --view 01BC_INST-bclib_new --ve
 ```
 ### Viewing the local development instance of Primo
 
-Visit http://localhost:8003/primo-explore/search?vid=bclib_new in your browser.
+Visit http://localhost:8003/discovery/search?vid=01BC_INST-bclib_new in your browser.
 
 ### Making changes to the view
 
@@ -93,7 +93,7 @@ sudo npm link
 ~~~
 
 ~~~sh
-# ~/Projects/bclib_new
+# ~/Projects/01BC_INST-bclib_new
 rm -rf node_modules/primo-explore-bc-availability
 npm link primo-explore-bc-availability
 ~~~
@@ -104,7 +104,7 @@ npm link primo-explore-bc-availability
 
 ~~~sh
 # ~/Projects/primo-explore-bc-availability
-gulp run-tests --view bclib_new
+gulp run-tests --view 01BC_INST-bclib_new --ve
 ~~~
 
 ## Packaging your customizations
@@ -112,7 +112,7 @@ gulp run-tests --view bclib_new
 ### Switch customized packages to remote version
 
 ~~~sh
-# ~/Projects/bclib_new
+# ~/Projects/01BC_INST-bclib_new
 rm -rf node_modules/primo-explore-bc-availability
 npm install 
 ~~~
@@ -121,20 +121,19 @@ npm install
 
 ~~~sh
 # ~/Projects/primo-explore-devenv
-gulp create-package --view bclib_new
+gulp create-package --view 01BC_INST-bclib_new --ve
 ~~~
 
 ~~~sh
-# ~/Projects/primo-explore-devenv/packages/bclib_new.zip
+# ~/Projects/primo-explore-devenv/packages/01BC_INST-bclib_new.zip
 ~~~
 
 ### Upload and deploy the package
 
-Visit the Primo Backoffice and navigate to Deploy & Utilities > Customization Manager
-
-1. Choose bclib_new from the dropdown
-2. Download the current version of bclib_new.zip as a backup in case something goes wrong
-3. Upload the new version of bclib_new.zip
-4. Deploy
+1. In Alma, navigate to Configuration > Discovery > Display Configuration > Configure Views
+2. Choose Edit from the action menu (three dots) and then select the Manage Customization Package tab
+3. Download the Current View Customization Package of 01BC_INST-bclib_new.zip as a backup
+4. Upload the new version of 01BC_INST-bclib_new.zip
+5. Press the Save button in the upper right to deploy
 
 ![screenshot of steps to upload and deploy the package](deploy.png)
