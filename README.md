@@ -20,7 +20,7 @@ git clone git@github.com:BCLibraries/primo-explore-devenv.git
 
 ### Install dependencies
 
-- node v.10.x
+- [node version 16.17.0](https://nodejs.org/download/release/v16.17.0/)
 - npm
 - gulp
 
