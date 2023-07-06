@@ -12,7 +12,7 @@ var app = angular.module('viewCustom', [
 
 window.browzine = {
     api: "https://public-api.thirdiron.com/public/v1/libraries/431",
-    apiKey: ${bamboo.API_KEY}
+    apiKey: ${process.env.API_KEY}
 };
 
 browzine.script = document.createElement("script");
@@ -20,7 +20,7 @@ browzine.script.src = "https://s3.amazonaws.com/browzine-adapters/primo/browzine
 document.head.appendChild(browzine.script);
 
 /* Google Tag Manager */
-const gtmId = ${GTM_ID}
+const gtmId = ${process.env.GTM_ID}
 function addGTM(doc) {
  const newScript = doc.createElement('script')
  const scriptText = `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':

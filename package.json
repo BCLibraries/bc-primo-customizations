@@ -16,6 +16,7 @@
     },
     "homepage": "https://github.com/BCLibraries/bc-primo-customizations#readme",
     "dependencies": {
+        "dotenv": "^16.3.1",
         "primo-explore-bc-availability": "github:BCLibraries/primo-explore-bc-availability",
         "primo-explore-bc-header": "github:BCLibraries/primo-explore-bc-header",
         "primo-explore-bc-permalink": "github:BCLibraries/primo-explore-bc-permalink",
