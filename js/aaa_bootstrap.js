@@ -1,3 +1,7 @@
+/* Update these values before building the package */
+var GTM_ID = 'GTM-xxxxxxx'; /* GA/GTM Container ID for environment */
+var API_KEY = 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx'; /* LibKey/Browzine API key */
+
 var app = angular.module('viewCustom', [
     'angularLoad',
     'bc-header',
@@ -12,7 +16,7 @@ var app = angular.module('viewCustom', [
 
 window.browzine = {
     api: "https://public-api.thirdiron.com/public/v1/libraries/431",
-    apiKey: ${bamboo.API_KEY}
+    apiKey: API_KEY
 };
 
 browzine.script = document.createElement("script");
@@ -20,7 +24,7 @@ browzine.script.src = "https://s3.amazonaws.com/browzine-adapters/primo/browzine
 document.head.appendChild(browzine.script);
 
 /* Google Tag Manager */
-const gtmId = ${GTM_ID}
+const gtmId = GTM_ID
 function addGTM(doc) {
  const newScript = doc.createElement('script')
  const scriptText = `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
