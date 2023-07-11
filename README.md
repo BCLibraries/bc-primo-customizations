@@ -37,7 +37,7 @@ The local development environment connects to our production or staging instance
 
 ```javascript
 // primo-explore-devenv/gulp/config.js
-var PROXY_SERVER = 'https://bc-primo.hosted.exlibrisgroup.com:443';
+var PROXY_SERVER = 'https://bc.primo.exlibrisgroup.com:443';
 ```
 
 ### Download BC Primo Customizations 
