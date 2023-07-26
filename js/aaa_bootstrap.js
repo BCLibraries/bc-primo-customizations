@@ -19,7 +19,7 @@ var app = angular.module('viewCustom', [
     'bc-gallery-item',
     'bc-availability',
     'bc-links-filter',
-    'hathiTrustAvailability',
+    'hathiTrustAvailability'
 ]);
 
 window.browzine = {
