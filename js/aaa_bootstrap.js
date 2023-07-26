@@ -2,13 +2,6 @@
 var GTM_ID = 'GTM-xxxxxxx'; /* GA/GTM Container ID for environment */
 var API_KEY = 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx'; /* LibKey/Browzine API key */
 
-/* 856 links to display in Links service */
-app.value('linksToKeep', [
-  "Request Article",
-  "Report a problem",
-  "Display Source Record"
-]);
-
 var app = angular.module('viewCustom', [
     'angularLoad',
     'bc-header',
@@ -18,7 +11,6 @@ var app = angular.module('viewCustom', [
     'bc-search-collections',
     'bc-gallery-item',
     'bc-availability',
-    'bc-links-filter',
     'hathiTrustAvailability',
 ]);
 
