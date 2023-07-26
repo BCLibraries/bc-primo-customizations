@@ -11,7 +11,7 @@ var app = angular.module('viewCustom', [
     'bc-search-collections',
     'bc-gallery-item',
     'bc-availability',
-    'hathiTrustAvailability',
+    'hathiTrustAvailability'
 ]);
 
 window.browzine = {
