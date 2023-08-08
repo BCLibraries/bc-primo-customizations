@@ -319,10 +319,13 @@ display: none;
 .prm-user-menu-content .md-button.button-with-icon > prm-icon md-icon {
     top: 5px;
 }
-/* Hide the services sidebar */
 
-#services-index {
-	display:none;
+/* Hide the services sidebar but not hidden "close" button that is
+accessible via keyboard navigation */
+
+prm-full-view .services-index-under button:not(.accessible-close) {
+  display: none;
+  white-space: normal;
 }
 
 /* Hide relation info note for boundwith titles. display:none not used
