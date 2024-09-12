@@ -71,7 +71,9 @@ gulp run --view 01BC_INST-bclib --ve
 ```
 ### Viewing the local development instance of Primo
 
-Visit http://localhost:8003/discovery/search?vid=01BC_INST-bclib in your browser.
+Visit http://localhost:8003/discovery/search?vid=01BC_INST:bclib in your browser.
+
+Note that the view in the URL uses a colon, while the customization folder uses a hyphen.
 
 ### Making changes to the view
 
