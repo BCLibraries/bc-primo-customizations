@@ -22,6 +22,7 @@
         "primo-explore-bottom-toolbar": "github:BCLibraries/primo-explore-bottom-toolbar",
         "primo-explore-gallery-item": "github:BCLibraries/primo-explore-gallery-item",
         "primo-explore-hathitrust-availability": "github:UMNLibraries/primo-explore-hathitrust-availability",
+        "primo-explore-bc-links-filter": "github:BCLibraries/primo-explore-bc-links-filter",
         "primo-explore-noresults": "github:BCLibraries/primo-explore-noresults",
         "primo-explore-proxy-borrower": "github:BCLibraries/primo-explore-proxy-borrower",
         "primo-explore-search-collections": "github:BCLibraries/primo-explore-search-collections"
