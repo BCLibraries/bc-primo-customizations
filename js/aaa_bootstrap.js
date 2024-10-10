@@ -9,6 +9,7 @@ var app = angular.module('viewCustom', [
     'bc-proxy',
     'bc-permalink',
     'bc-search-collections',
+    'bc-ghost-record',
     'bc-gallery-item',
     'bc-availability',
     'bc-links-filter',

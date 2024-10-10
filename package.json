@@ -25,6 +25,7 @@
         "primo-explore-bc-links-filter": "github:BCLibraries/primo-explore-bc-links-filter",
         "primo-explore-noresults": "github:BCLibraries/primo-explore-noresults",
         "primo-explore-proxy-borrower": "github:BCLibraries/primo-explore-proxy-borrower",
-        "primo-explore-search-collections": "github:BCLibraries/primo-explore-search-collections"
+        "primo-explore-search-collections": "github:BCLibraries/primo-explore-search-collections",
+        "primo-explore-ghost-record": "github:BCLibraries/primo-explore-ghost-record"
     }
 }
