@@ -336,3 +336,9 @@ div.clearfix.relationInfo {
     height: 0px;
     margin-top: -3rem;
 }
+
+/*hide "search inside" for print journals*/
+
+.search-within-p-only {
+display: none
+}
