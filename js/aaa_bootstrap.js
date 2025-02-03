@@ -1,6 +1,7 @@
-/* Update these values before building the package */
-var GTM_ID = 'GTM-xxxxxxx'; /* GA/GTM Container ID for environment */
+/* Update API value before building the package */
 var API_KEY = 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx'; /* LibKey/Browzine API key */
+
+var GTM_ID = 'GTM-5R4S8V4'; /* GA/GTM Container ID for environment */
 
 var app = angular.module('viewCustom', [
     'angularLoad',
