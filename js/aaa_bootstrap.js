@@ -14,6 +14,8 @@ var app = angular.module('viewCustom', [
     'bc-gallery-item',
     'bc-availability',
     'bc-links-filter',
+    'bc-back-to-locations',
+    'autosearch',
     'hathiTrustAvailability'
 ]);
 
