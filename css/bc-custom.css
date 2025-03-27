@@ -362,3 +362,18 @@ prm-resource-type-filter-bar .md-button {
 prm-resource-type-filter-bar prm-icon {
 	color: #3a3a3a !important;
 }
+
+/* ViewIt area styles - 3/27/25 for emphasizing 'Find Online' links */
+
+prm-alma-viewit-items:first-of-type > md-list {
+    background-color: #f3f3f3;
+    padding: 1rem;
+}
+
+prm-alma-viewit-items:first-of-type .item-title {
+    font-weight: 700;
+}
+
+prm-alma-viewit-items:nth-of-type(2) .item-title {
+    font-size: 15px;
+}
