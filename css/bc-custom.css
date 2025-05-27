@@ -364,9 +364,8 @@ prm-resource-type-filter-bar prm-icon {
 }
 
 /* ViewIt area styles - 3/27/25 for emphasizing 'Find Online' links */
-/* Suppressing until discussed with PWG - sc 03/28/2025 */
 
-/* prm-alma-viewit-items:first-of-type > md-list {
+prm-alma-viewit-items:first-of-type > md-list {
     background-color: #f3f3f3;
     padding: 1rem;
 }
@@ -377,7 +376,7 @@ prm-alma-viewit-items:first-of-type .item-title {
 
 prm-alma-viewit-items:nth-of-type(2) .item-title {
     font-size: 15px;
-} */
+}
 
 /* Hide Search Inside */
 
