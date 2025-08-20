@@ -21,13 +21,16 @@
         "primo-explore-bc-permalink": "github:BCLibraries/primo-explore-bc-permalink",
         "primo-explore-bottom-toolbar": "github:BCLibraries/primo-explore-bottom-toolbar",
         "primo-explore-gallery-item": "github:BCLibraries/primo-explore-gallery-item",
-        "primo-explore-hathitrust-availability": "github:BCLibraries/primo-explore-hathitrust-availability",
         "primo-explore-bc-links-filter": "github:BCLibraries/primo-explore-bc-links-filter",
         "primo-explore-noresults": "github:BCLibraries/primo-explore-noresults",
         "primo-explore-proxy-borrower": "github:BCLibraries/primo-explore-proxy-borrower",
         "primo-explore-search-collections": "github:BCLibraries/primo-explore-search-collections",
         "primo-explore-ghost-record": "github:BCLibraries/primo-explore-ghost-record",
         "primo-explore-bc-back-to-locations": "github:BCLibraries/primo-explore-bc-back-to-locations",
-        "primo-explore-autosearch": "github:BCLibraries/primo-explore-autosearch"
+        "primo-explore-autosearch": "github:BCLibraries/primo-explore-autosearch",
+        "primo-explore-bc-hide-locate": "github:BCLibraries/primo-explore-bc-hide-locate",
+        "primo-explore-bc-view-items-text": "github:BCLibraries/primo-explore-bc-view-items-text",
+        "primo-explore-hathitrust-availability": "github:BCLibraries/primo-explore-hathitrust-availability"
+
     }
 }

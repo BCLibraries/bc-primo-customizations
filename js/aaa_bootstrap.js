@@ -16,6 +16,8 @@ var app = angular.module('viewCustom', [
     'bc-links-filter',
     'bc-back-to-locations',
     'autosearch',
+    'bc-hide-locate',
+    'bc-view-items-text',
     'hathiTrustAvailability'
 ]);
 
