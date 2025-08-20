@@ -30,7 +30,7 @@
         "primo-explore-autosearch": "github:BCLibraries/primo-explore-autosearch",
         "primo-explore-bc-hide-locate": "github:BCLibraries/primo-explore-bc-hide-locate",
         "primo-explore-bc-view-items-text": "github:BCLibraries/primo-explore-bc-view-items-text",
-        "primo-explore-hathitrust-availability": "github:BCLibraries/primo-explore-hathitrust-availability"
-
+        "primo-explore-hathitrust-availability": "github:BCLibraries/primo-explore-hathitrust-availability",
+        "primo-explore-bc-viewit-styles": "github:BCLibraries/primo-explore-bc-viewit-styles"
     }
 }
