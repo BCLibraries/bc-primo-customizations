@@ -18,6 +18,7 @@ var app = angular.module('viewCustom', [
     'autosearch',
     'bc-hide-locate',
     'bc-view-items-text',
+    'bc-viewit-styles',
     'hathiTrustAvailability'
 ]);
 
