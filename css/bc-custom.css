@@ -389,9 +389,3 @@ div#searchWithinJournal {
 div.facet-element-marker-library[data-facet-value="library-1021–12900830001021"] {
   display: none !important;
 }
-
-/* Hide On Shelf Top level facet (temporary) */
-
-div.facet-element-marker-tlevel[data-facet-value='tlevel-available_on_shelf'] {
-  display:none!important;
-}
