@@ -389,3 +389,8 @@ div#searchWithinJournal {
 div.facet-element-marker-library[data-facet-value="library-1021–12900830001021"] {
   display: none !important;
 }
+
+/* Hide SpringShare LibMaps button in brief display */
+div.search-result-availability-line-wrapper button.springy-button {
+  display: none !important;
+}
